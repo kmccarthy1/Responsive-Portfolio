@@ -198,3 +198,74 @@ input[type=message] {
     padding-top: 5px;
     padding-bottom: 5px;
   }
+
+  @media screen and (max-width: 640px) {
+    p{
+        font-size: 100%;
+    }
+
+    header {
+        width: 400px;
+        align-content: center;
+    }
+
+    body {
+      width: 500px;
+      background-color: lightblue;
+    }
+    #portfolio-mainpage {
+        width: 500px;
+    }
+    #mainpage {
+
+        width:200px;
+    }
+    img {
+        height: 10%;
+        width: 10%; 
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    p{
+        font-size: 100%;
+    }
+
+    header {
+        width: 500px;
+    }
+
+    #mainpage {
+
+        width:500px;
+    }
+
+    #portfolio-mainpage {
+        width: 500px;
+    }
+    
+    img {
+        height: 50%;
+        width: 50%; 
+    }
+  }
+
+  @media screen and (max-width: 980px) {
+    p{
+        font-size: 100%;
+    }
+
+    header {
+        width: 600px;
+    }
+
+    body {
+        width: 400px;
+      }
+    #mainpage {
+
+        width: 700px;
+    }
+
+
+  }
