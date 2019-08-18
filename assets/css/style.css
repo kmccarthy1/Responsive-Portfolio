@@ -199,6 +199,16 @@ input[type=message] {
     padding-bottom: 5px;
   }
 
+
+
+
+    /*These media queries seem to semi work, I'm not fully happy with their function now.
+  Gonna try and tweak them a bit in the next few days for practice */ 
+
+
+
+
+
   @media screen and (max-width: 640px) {
     p{
         font-size: 100%;
@@ -269,3 +279,4 @@ input[type=message] {
 
 
   }
+
